@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319181035",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "event_type",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "EventType",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

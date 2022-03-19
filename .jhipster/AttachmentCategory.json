@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319181044",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "attachment_category",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AttachmentCategory",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
