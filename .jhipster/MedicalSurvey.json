@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319181041",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "medical_survey",
+  "fields": [
+    {
+      "fieldName": "ongoingIllnesses",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ongoingTreatments",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MedicalSurvey",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attachment",
+      "otherEntityRelationshipName": "medicalSurvey",
+      "relationshipName": "attachment",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
