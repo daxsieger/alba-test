@@ -48,6 +48,23 @@ public class CacheConfiguration {
             createCache(cm, org.code4refugees.cri.alba.domain.User.class.getName());
             createCache(cm, org.code4refugees.cri.alba.domain.Authority.class.getName());
             createCache(cm, org.code4refugees.cri.alba.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.code4refugees.cri.alba.domain.Region.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Country.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Location.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.CheckPoint.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Refugee.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Operator.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.EventType.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.FamilyRelation.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Event.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Registration.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Registration.class.getName() + ".events");
+            createCache(cm, org.code4refugees.cri.alba.domain.Person.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Job.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.MedicalSurvey.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.LegalSurvey.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.Attachment.class.getName());
+            createCache(cm, org.code4refugees.cri.alba.domain.AttachmentCategory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319181130",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "legal_survey",
+  "fields": [
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "issues",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "LegalSurvey",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attachment",
+      "otherEntityRelationshipName": "legalSurvey",
+      "relationshipName": "attachment",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
